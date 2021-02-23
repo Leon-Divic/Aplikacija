@@ -86,7 +86,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\stuttgart.png" />
+    <AndroidResource Include="Resources\drawable\stuttgart.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Aplikacija\Aplikacija.csproj">
@@ -95,61 +95,61 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\bielfield.png" />
+    <AndroidResource Include="Resources\drawable\bielfield.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\bremen.png" />
+    <AndroidResource Include="Resources\drawable\bremen.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\augsburg.png" />
+    <AndroidResource Include="Resources\drawable\augsburg.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\koln.png" />
+    <AndroidResource Include="Resources\drawable\koln.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\mainz.png" />
+    <AndroidResource Include="Resources\drawable\mainz.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\schalke.png" />
+    <AndroidResource Include="Resources\drawable\schalke.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\union.png" />
+    <AndroidResource Include="Resources\drawable\union.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\hertha.png" />
+    <AndroidResource Include="Resources\drawable\hertha.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\frankfurt.png" />
+    <AndroidResource Include="Resources\drawable\frankfurt.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\freiburg.png" />
+    <AndroidResource Include="Resources\drawable\freiburg.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\wolfsburg.png" />
+    <AndroidResource Include="Resources\drawable\wolfsburg.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\hoffenheim.png" />
+    <AndroidResource Include="Resources\drawable\hoffenheim.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\leverkusen.png" />
+    <AndroidResource Include="Resources\drawable\leverkusen.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\monchengl.png" />
+    <AndroidResource Include="Resources\drawable\monchengl.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\Leipzig.png" />
+    <AndroidResource Include="Resources\drawable\Leipzig.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\borusia.png" />
+    <AndroidResource Include="Resources\drawable\borusia.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\slika3.jfif" />
+    <AndroidResource Include="Resources\drawable\slika3.jfif" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\bayern.png" />
+    <AndroidResource Include="Resources\drawable\bayern.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\drawable\slika2.jfif" />
+    <AndroidResource Include="Resources\drawable\slika2.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

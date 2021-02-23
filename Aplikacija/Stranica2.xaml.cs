@@ -17,14 +17,15 @@ namespace Aplikacija
         {
             InitializeComponent();
 
-            slike.Source = ImageSource.FromResource(string.Format($"Aplikacija.Slike.slika{i}"));
+            
 
         }
 
         private void Tipka_Clicked(object sender, EventArgs e)
         {
-            
-            
+
         }
+
+        
     }
 }
