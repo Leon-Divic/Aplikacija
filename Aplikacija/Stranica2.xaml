@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aplikacija.Stranica2">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aquamarine">
+            <Label Text="FC Bayern München" FontSize="Large" TextColor="Red" VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" ></Label>
+            <Image x:Name="slike" Aspect="AspectFit"></Image>
+            <Button x:Name="Tipka" Clicked="Tipka_Clicked"></Button>
+            <Label Text="FC Bayern München (njemački: Fußball-Club Bayern München) njemački je nogometni klub iz bavarskog glavnog grada Münchena. Natječe se u 1. njemačkoj Bundesligi, koju je osvojio rekordnih 30 puta, uz jedno prvenstvo Njemačke prije osnivanja Bundeslige, dok je 20 puta osvojio njemački kup. Bayern je također šest puta osvajao naslov prvaka Europe.
+Klub je 1900. godine osnovalo jedanaest nogometaša vođenih Franzom Johnom. Iako je Bayern osvojio prvo njemačko nogometno prvenstvo u 1932. godini, momčad nije igrala Bundesligu od njezinog početka, 1963. godine. Sredinom 1970-ih, klub je imao razdoblje sjajnih uspjeha, kada je poznata momčad predvođena Franzom Beckenbauerom osvojila Kup prvaka tri puta zaredom (od 1974. do 1976.). U godinama koje su slijedile, Bayern je postao najtrofejnija njemačka nogometna momčad. 2013. godine klub je osvojio prvenstvo, kup i Ligu prvaka, a zatim i europski superkup te Svjetsko klupsko prvenstvo.
+Od početka sezone 2005./06., Bayern domaće utakmice igra na Allianz Areni. Prije toga, klub je 33 godine igrao na Olimpijskom stadionu. Glavne su boje momčadi crvena i bijela, a logotip kluba prikazuje boje pokrajine Bavarske. Danas je Bayern jedan od najpopularnijih nogometnih klubova na svijetu s više od 250 000 članova. Uz to, postoji više od 3.800 službeno registriranih klubova obožavatelja (fan-clubova) s oko 285 000 članova. Klub također ima momčadi iz različitih sportova, kao što su šah, rukomet, košarka, gimnastika, kuglanje, stolni tenis te ostale nogometne momčadi (žene, rezerve, juniori) s više od 1.100 aktivnih članova." TextColor="Red" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

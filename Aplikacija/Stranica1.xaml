@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aplikacija.Stranica1">
+
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Red">
+            <Label Text="BUNDESLIGA" FontSize="Large"  VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" BackgroundColor="White" TextColor="Black"></Label>
+            <Label Text="Bundesliga je najviše nogometno klupsko natjecanje u Njemačkoj gdje sudionici u međusobnim srazovima na koncu određuju državnog prvaka.
+Izraz Bundesliga se također koristi i u Austriji, kao i za brojna ligaška natjecanja u drugim sportovima u tim dvjema državama.
+Njemačka neobičnost se sastoji u tome, što je za razliku od drugih država, krenula dosta kasnije s jedinstvenom nacionalnom ligaškom strukturom. Tek 1963. se formirala Bundesliga, a struktura i organizacija državnih nogometnih liga se često mijenjala sve do današnjeg dana."
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="EndAndExpand" BackgroundColor="Black" TextColor="White"/>
+            <Image x:Name="slika" Aspect="AspectFit" ></Image>
+            <Slider x:Name="Slajder" Maximum="10" Minimum="-10" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="Black" ThumbColor="Red" ValueChanged="Slajder_ValueChanged" ></Slider>
+            <Label Text="Logo Bundeslige" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="White" TextColor="Black"></Label>
+            <Label Text="Klubovi Bundeslige" FontSize="Medium" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" BackgroundColor="Black" TextColor="White"></Label>
+            <ListView x:Name="Lista" VerticalOptions="StartAndExpand" 
+                HorizontalOptions="Start" BackgroundColor="White">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell Text="{Binding ime}" Detail="{Binding status}" ImageSource="{Binding image}" TextColor="Red"></ImageCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
